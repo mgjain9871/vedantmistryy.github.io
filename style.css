@@ -182,8 +182,9 @@ section {
   left: 0;
   right: 0;
   padding: 3rem 9%;
-  z-index: 1000;
+  z-index: 1;
   background: #2666cf;
+  box-shadow: 0px 5px 12px 0px rgba(8, 7, 15, 0.71);
 }
 
 .header .logo {
@@ -533,7 +534,12 @@ section {
   section{
       padding:2rem;
   }
-
+.theme{
+  position: fixed;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  z-index: 1;
+}
 }
 
 @media (max-width:768px){
