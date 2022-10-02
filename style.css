@@ -47,6 +47,10 @@ body.dark h1 {
   color: white;
 }
 
+body.dark .footer .box-container .box * {
+  color: white;
+}
+
 .theme {
   position: fixed;
   margin-left: 2rem;
