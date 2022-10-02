@@ -16,52 +16,52 @@
     <link rel="icon" type="image/y-icon" href="/Untitled design (1).png">
     <title>F1 Motors | Beyond Something</title>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
 </head>
 
 <body>
 
-
-
     <!-- Header -->
-
     <include src="./Utils/header.html"></include>
 
+    <div class="theme">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
 
-    <!-- video -->
+    <script>
+        const chk = document.getElementById('chk');
 
+        chk.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
 
+    <!-- Video -->
     <div id="videowrapper">
-
         <div id="fullScreenDiv">
-
             <video src="\Video\Final.mp4" id="video" role="presentation" preload="auto" playsinline=""
                 crossorigin="anonymous" loop muted autoplay>
-
             </video>
-
         </div>
     </div>
 
-
-
     <!-- Our Services -->
-
-
     <section class="services" id="services">
-
         <h1 class="heading"> Our <span>Services</span> </h1>
-
         <div class="box-container">
 
-
             <a href="about.html" class="btn">
-
                 <div class="box">
                     <i class="fas fa-car"></i>
                     <h3>About</h3>
                     <p>F1 Motors, A Pre-Owned Sport Car Dealer Deals With Popular Sport Brands
                     </p>
-
                 </div>
             </a>
 
@@ -72,18 +72,15 @@
                     <h3>Brands</h3>
                     <p>What sets F1 Motors apart from its competition in the used sport cars segment
                     </p>
-
                 </div>
             </a>
 
             <a href="customs.html" class="btn">
-
                 <div class="box">
                     <i class="fas fa-car-battery"></i>
                     <h3>Customs</h3>
                     <p>Our experienced team can offer everything vinyl wraps, alloy wheel, bodykits and bespoke
                         interiors.
-
                     </p>
                 </div>
             </a>
