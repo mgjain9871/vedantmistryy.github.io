@@ -256,7 +256,7 @@ body.dark .header-about .heading {
   text-align: center;
   border-radius: 0.5rem;
   width: 300px;
-  background-color: #f2f2f2;
+  background-color: transparent;
   padding-top: 30px;
   padding-bottom: 27px;
 }
@@ -265,6 +265,10 @@ body.dark .header-about .heading {
   font-size: 37px;
   color: #ffc72c;
   padding-bottom: 25px;
+}
+
+body.dark .contact .row form h3 {
+  color: white;
 }
 
 .contact .row form .box {
@@ -288,6 +292,14 @@ body.dark .header-about .heading {
 
 .contact .row form .glow-on-hover {
   font-size: 23px;
+}
+
+body.dark .contact .row form .glow-on-hover:after {
+  background-color: white;
+  background: white;
+}
+body.dark .contact .row form .glow-on-hover{
+  color: black;
 }
 
 .map {
