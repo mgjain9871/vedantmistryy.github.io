@@ -16,6 +16,24 @@
     <!-- header -->
     <include src="./Utils/header.html"></include>
 
+    <!-- Dark Mode -->
+    <div class="theme">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+
+    <script>
+        const chk = document.getElementById('chk');
+
+        chk.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
+        });
+    </script>
+
     <!-- main -->
     <img src="/About Images/2.jpg" style="width: 100%;">
     <!-- wrapping heading -->
@@ -96,13 +114,16 @@
             ENDLESS POSSIBILITIES
         </h3>
 
-        F1 Customs are firmly established as one of the leading Specialist Supercar Customisation centres! Our
-        experienced team can offer everything from vinyl wraps and alloy wheel refurbs, through to bodykits and bespoke
-        interiors. The possibilities are endless.
+        <p>F1 Customs are firmly established as one of the leading Specialist Supercar Customisation centres! Our
+            experienced team can offer everything from vinyl wraps and alloy wheel refurbs, through to bodykits and
+            bespoke
+            interiors. The possibilities are endless.
 
-        We use products from world renowned brands. We use vinyls from Avery and Dennison, Hexis, 3M, Oracle and
-        TechWrap. We have sourced and installed body kits from DMC and we are the first to bring Clarity Coats Sprayable
-        Paint Protection
+            We use products from world renowned brands. We use vinyls from Avery and Dennison, Hexis, 3M, Oracle and
+            TechWrap. We have sourced and installed body kits from DMC and we are the first to bring Clarity Coats
+            Sprayable
+            Paint Protection
+        </p>
     </div>
 
 
