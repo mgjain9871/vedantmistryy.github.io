@@ -154,7 +154,7 @@ body.dark p {
   justify-content: space-between;
 }
 .wrap {
-  font-size: 30px;
+  font-size: 20px;
   height: 500px;
   width: 50%;
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
@@ -177,7 +177,7 @@ p {
   justify-content: space-between;
 }
 .wrap1 {
-  font-size: 30px;
+  font-size: 20px;
   height: 50%px;
   width: 50%;
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
@@ -199,7 +199,7 @@ p {
   justify-content: space-between;
 }
 .wrap2 {
-  font-size: 30px;
+  font-size: 20px;
   height: 500px;
   width: 50%;
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
@@ -264,7 +264,7 @@ h4 {
 }
 
 .para {
-  font-size: 30px;
+  font-size: 22px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 200;
   height: 400px;
