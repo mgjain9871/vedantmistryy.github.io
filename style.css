@@ -534,7 +534,12 @@ section {
   section{
       padding:2rem;
   }
-
+.theme{
+  position: fixed;
+  margin-left: 18rem;
+  margin-top: 2rem;
+  z-index: 1;
+}
 }
 
 @media (max-width:768px){
