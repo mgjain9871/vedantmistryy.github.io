@@ -436,7 +436,8 @@ section {
 
 .footer {
   background: #2678cf26 !important;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
+  padding:  40px 120px;
 }
 
 .footer .box-container {
