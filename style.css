@@ -399,6 +399,17 @@ section {
   color: #eeeeee;
 }
 
+/* Cards */
+.box{
+  background-color: white !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.footing{
+  border-radius: 10px !important;
+  background-color: #2678cf !important;
+}
 /* Footer */
 
 .footer {
