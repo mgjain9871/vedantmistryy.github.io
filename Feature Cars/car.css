@@ -60,7 +60,6 @@ html {
   display: none;
 }
 
-
 .main {
   /* display: block; */
   height: 1330px;
@@ -72,28 +71,27 @@ html {
   border: 9px solid red;
   border-radius: 20px;
 }
-.main h2{
+.main h2 {
   color: silver;
   padding-top: 85px;
 }
-.main h2:hover{
+.main h2:hover {
   color: #2666cf;
 }
 .main .imag {
   padding-left: 260px;
   padding-top: 30px;
-  padding-bottom:  40px;
+  padding-bottom: 40px;
 }
 
 .main .imag img {
   padding: 20px 20px 20px 20px;
 }
-.main .ask{
+.main .ask {
   height: 100px;
   padding-left: 600px;
   padding-bottom: 30px;
 }
-
 
 @keyframes glowing {
   0% {
@@ -107,9 +105,8 @@ html {
   }
 }
 
-
 .glow-on-hover {
- /* padding-left: 100px; */
+  /* padding-left: 100px; */
   width: 230px;
   height: 50px;
   border: none;
@@ -175,17 +172,8 @@ html {
   border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 .info {
-  height: 690px; 
+  height: 690px;
   column-count: 2;
   column-gap: 0px;
   padding-left: 200px;
@@ -243,36 +231,32 @@ html {
   padding-bottom: 25px;
 }
 
-h2{
+h2 {
   padding-top: 50px;
   padding-bottom: 0px;
   font-size: 50px;
   text-align: center;
   background-color: whitesmoke;
 }
-.more_pics{
+.more_pics {
   display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
-    gap:0rem;
-    padding: 70px;
-    padding-left: 140px;
-    background-color: #f2f2f2;
+  grid-template-columns: repeat(auto-fit, minmax(39rem, 1fr));
+  gap: 0rem;
+  padding: 70px;
+  padding-left: 140px;
+  background-color: #f2f2f2;
 }
 
-.more_pics img{
+.more_pics img {
   position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-    transition: 0.4s all;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: 0.4s all;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
 }
-
-
-
-
 
 .footer {
   background: #ffe3de;
@@ -309,92 +293,94 @@ h2{
   padding-right: 1.9rem;
 }
 
-
-
-
-
-
-
-
-
-.login-form-container{
+.login-form-container {
   position: fixed;
-  top:-105%; left:0;
-  height:100%;
-  width:100%;
+  top: -105%;
+  left: 0;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background:rgba(255,255,255,.9);
+  background: rgba(255, 255, 255, 0.9);
   z-index: 10000;
 }
 
-.login-form-container.active{
-  top:0;
+.login-form-bg {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
 }
 
-.login-form-container form{
-  margin:2rem;
+.login-form-container.active {
+  top: 0;
+}
+
+.login-form-container form {
+  margin: 2rem;
   text-align: center;
-  padding:2rem;
-  width:40rem;
+  padding: 2rem;
+  width: 40rem;
   border-radius: 14px;
   box-shadow: var(--box-shadow);
-  border:var(--border);
+  border: var(--border);
   background: #2666cf;
+  z-index: 10;
 }
 
-.login-form-container form .buttons{
+.login-form-container form .buttons {
   display: flex;
-  gap:1rem;
+  gap: 1rem;
   align-items: center;
 }
 
-.login-form-container form .btn{
+.login-form-container form .btn {
   display: block;
-  width:100%;
-  margin:.5rem 0;
+  width: 100%;
+  margin: 0.5rem 0;
 }
 
-.login-form-container form .box{
-  margin:.7rem 0;
+.login-form-container form .box {
+  margin: 0.7rem 0;
   width: 100%;
   font-size: 1.6rem;
-  color:var(--black);
+  color: var(--black);
   text-transform: none;
   border: 3px solid blue;
-  padding:1rem 1.2rem;
-  border-radius: .5rem;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
 }
 
-.login-form-container form p{
-  padding:1rem 0;
+.login-form-container form p {
+  padding: 1rem 0;
   font-size: 1.5rem;
-  color:var(--light-color);
+  color: var(--light-color);
 }
 
-.login-form-container form p a{
-  color:var(--yellow);
+.login-form-container form p a {
+  color: var(--yellow);
   text-decoration: underline;
 }
 
-.login-form-container form h3{
-  padding-bottom:1rem;
+.login-form-container form h3 {
+  padding-bottom: 1rem;
   font-size: 2.5rem;
-  color:var(--black);
+  color: var(--black);
   text-transform: uppercase;
 }
 
-.login-form-container #close-login-form{
+.login-form-container #close-login-form {
   position: absolute;
-  top:1.5rem; right:2.5rem;
+  top: 1.5rem;
+  right: 2.5rem;
   font-size: 5rem;
-  color:#2666cf;
+  color: #2666cf;
   cursor: pointer;
 }
 
-#login-btn i{
-    display: none;
-    font-size: 2.5rem;
-    color:var(--light-color);
+#login-btn i {
+  display: none;
+  font-size: 2.5rem;
+  color: var(--light-color);
 }
