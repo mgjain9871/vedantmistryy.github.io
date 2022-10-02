@@ -33,7 +33,15 @@ html {
  scrollbar-color: #000;
 }
 body {
-  background-color: #eeeeee;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 section{
   padding:2rem 9%;
