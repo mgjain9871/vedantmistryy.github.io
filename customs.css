@@ -29,6 +29,7 @@ body.dark {
 }
 
 body.dark h1 {
+  background-color: #000;
   color: white;
 }
 
@@ -323,7 +324,10 @@ color:red;
   padding-right: 1.9rem;
 }
 
-
+body.dark .footer {
+  background: #2678cf26;
+  color: white;
+}
 
 
 @media (max-width:991px){

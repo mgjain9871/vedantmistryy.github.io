@@ -289,26 +289,7 @@ body.dark h1 {
   border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Styling for footer */
 
 .footer {
     background: #ffe3de;
@@ -345,6 +326,14 @@ body.dark h1 {
     padding-right: 1.9rem;
   }
 
+  body.dark .footer {
+    background: #2678cf26;
+    color: white;
+  }
+
+  body.dark .footer .box-container .box * {
+    color: white;
+  }
  
 @media (max-width:991px){
 
